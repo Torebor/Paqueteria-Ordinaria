@@ -9,24 +9,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PaqueteriaOrdinaria
+namespace PaqueteriaOrdinaria.Formularios
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Frm_RegistroPaquete.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Frm_RegistroPaquete : Window
     {
-        public MainWindow()
+        public Frm_RegistroPaquete()
         {
             InitializeComponent();
-        }
-
-        private void Btn_Minimizar_Click(object sender, RoutedEventArgs e)
-        {
-           
         }
     }
 }
