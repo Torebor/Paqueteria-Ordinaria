@@ -26,7 +26,19 @@ namespace PaqueteriaOrdinaria
 
         private void Btn_Minimizar_Click(object sender, RoutedEventArgs e)
         {
-           
+            WindowState = WindowState.Minimized;
+        }
+
+        private void Btn_Salir_Click(object sender, RoutedEventArgs e)
+        {
+            //Application.Current.Shutdown();
+            Close();
+        }
+
+        private void Btn_Grabar_Click(object sender, RoutedEventArgs e)
+        {
+            Formularios.Frm_RegistroPaquete FrmRegistro = new Formularios.Frm_RegistroPaquete();
+            FrmRegistro.Show();
         }
     }
 }

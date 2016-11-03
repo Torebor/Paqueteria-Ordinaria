@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Sistema de Paqueteria" Height="350" Width="525" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="{x:Null}" WindowStyle="None">
     <Grid Background="#FF009FDA">
-        <Button x:Name="Btn_Grabar" Margin="102,280.56,0,29.44" Background="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" Grid.Column="1">
+        <Button x:Name="Btn_Grabar" Margin="102,280.56,0,29.44" Background="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" Grid.Column="1" Click="Btn_Grabar_Click">
             <StackPanel x:Name="stck_grabar" Orientation="Horizontal">
                 <Image Source="Imagenes/Grabar.png" RenderTransformOrigin="0.5,0.368" ToolTip="Grabar paquete" />
             </StackPanel>
@@ -18,7 +18,7 @@
                 <Image Source="Imagenes/Reporte.png" RenderTransformOrigin="0.5,0.368" ToolTip="Ver reporte" />
             </StackPanel>
         </Button>
-        <Button x:Name="Btn_Salir" Margin="332.59,9,15,319" Background="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" Grid.Column="2" ToolTip="Salir del sistema">
+        <Button x:Name="Btn_Salir" Margin="332.59,9,15,319" Background="{x:Null}" BorderBrush="{x:Null}" BorderThickness="0" Cursor="Hand" Grid.Column="2" ToolTip="Salir del sistema" Click="Btn_Salir_Click">
             <StackPanel x:Name="stck_salir" Orientation="Horizontal">
                 <Image Source="Imagenes/Salir.png" RenderTransformOrigin="0.5,0.368" ToolTip="Salir" />
             </StackPanel>
